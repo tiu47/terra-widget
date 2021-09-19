@@ -33,7 +33,7 @@ class My_Widget extends WP_Widget {
         'before_widget' => '<div class="widget-wrap">',
         'after_widget'  => '</div></div>'
     );
-
+ 
     public function widget( $args, $instance ) {
 
         echo $args['before_widget'];
